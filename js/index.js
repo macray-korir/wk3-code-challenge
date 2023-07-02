@@ -1,5 +1,3 @@
-// app.js
-
 // Fetches movie details for the first movie and updates the UI
 function fetchFirstMovie() {
     fetch('http://localhost:3000/films/1')
