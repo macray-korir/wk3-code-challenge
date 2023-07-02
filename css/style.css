@@ -1,30 +1,87 @@
-.container {
-    display: flex;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
   }
   
-  .movies-menu {
-    flex: 1;
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px 0;
   }
   
   .movie-details {
-    flex: 2;
-    display: flex;
-    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
   }
   
-  #movie-poster {
-    width: 300px;
-    height: 400px;
-    background-color: lightgray;
+  .movie-details img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
   }
   
-  #movie-info {
-    margin-left: 20px;
+  .movie-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
   }
   
-  .sold-out {
-    color: red;
+  .movie-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
   }
   
-  /* Add any additional styling as needed */
+  .movie-menu {
+    margin-top: 20px;
+  }
+  
+  .movie-menu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-menu ul {
+    list-style: none;
+  }
+  
+  .movie-menu li {
+    padding: 5px 0;
+  }
+  
+  .movie-menu li.sold-out {
+    color: #999;
+  }
+  
+  .movie-menu li.film-item {
+    cursor: pointer;
+  }
+  
+  .movie-menu li.film-item:hover {
+    font-weight: bold;
+  }
+  
+  #buy-ticket {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #buy-ticket:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
   
