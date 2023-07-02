@@ -1,87 +1,88 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  header {
-    text-align: center;
-    padding: 20px 0;
-  }
-  
-  .movie-details {
-    background-color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  .movie-details img {
-    width: 200px;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .movie-details h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .movie-details p {
-    font-size: 16px;
-    margin-bottom: 5px;
-  }
-  
-  .movie-menu {
-    margin-top: 20px;
-  }
-  
-  .movie-menu h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .movie-menu ul {
-    list-style: none;
-  }
-  
-  .movie-menu li {
-    padding: 5px 0;
-  }
-  
-  .movie-menu li.sold-out {
-    color: #999;
-  }
-  
-  .movie-menu li.film-item {
-    cursor: pointer;
-  }
-  
-  .movie-menu li.film-item:hover {
-    font-weight: bold;
-  }
-  
-  #buy-ticket {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  #buy-ticket:disabled {
-    background-color: #999;
-    cursor: not-allowed;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #70a46c;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.movie-details {
+  background-color: #3f6334;
+  padding: 20px;
+  text-align: center;
+}
+
+.movie-details img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.movie-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.movie-menu {
+  margin-top: 20px;
+}
+
+.movie-menu h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.movie-menu ul {
+  list-style: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
+
+.movie-menu li {
+  padding: 5px 0;
+}
+
+.movie-menu li.sold-out {
+  color: #999;
+}
+
+.movie-menu li.film-item {
+  cursor: pointer;
+}
+
+.movie-menu li.film-item:hover {
+  font-weight: bold;
+}
+
+#buy-ticket {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#buy-ticket:disabled {
+  background-color: #999;
+  cursor: not-allowed;
+}
